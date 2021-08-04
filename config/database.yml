@@ -24,5 +24,6 @@ test:
   <<: *default
 
 
-production:
+production: postgres://uyenohiojltabm:743af3bb1655b528b43d8cedff08e3e28ebbdae9cc047ed3ad43e9cd50a3bda2@ec2-3-227-44-84.compute-1.amazonaws.com:5432/d4vthuqa7oq2k1
+  database: 
   <<: *default
